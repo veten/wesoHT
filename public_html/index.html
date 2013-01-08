@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Pelaa!</title>
+        <link rel="stylesheet" type="text/css" href="tyylit.css"/>
+    </head>
+    <body>
+        <section id="main" class="hidden">
+            <img src="tehosteet/alus.png" />
+            <section id="listaus">
+                <h1> <span id="spanTulos"></span> </h1>
+                <h1> <span id="spanLista"></span> </h1>
+                <ol>
+                    <li><span id="span1"></span></li>
+                    <li><span id="span2"></span></li>
+                    <li><span id="span3"></span></li>
+                    <li><span id="span4"></span></li>
+                    <li><span id="span5"></span></li>
+                </ol>
+            </section>
+        </section>
+
+        <section id="alkusivu">
+            <h2> ARKANOID</h2>
+            <img src="tehosteet/alus.png" />
+            <H1> LADATAAN <canvas id="lataus" width="220" height="20"></canvas>            
+            </H1>
+        </section>
+
+        <canvas id="alusta" width="704" height="480" class="hidden"></canvas>            
+
+        <audio src="tehosteet/maila.wav" id="seinaAani"></audio>
+        <audio src="tehosteet/maila.wav" id="mailaAani"></audio> 
+        <audio src="tehosteet/tiili.wav" id="tiiliAani1"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani2"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani3"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani4"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani5"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani6"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani7"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani8"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani9"></audio>
+        <audio src="tehosteet/tiili.wav" id="tiiliAani10"></audio>
+        <audio src="tehosteet/pelimusa.mp3" id="pelimusa" loop></audio>
+        <audio src="tehosteet/latausAani.wav" id="latausAani"></audio>
+        <audio src="tehosteet/tappioAani.wav" id="tappioAani"></audio>
+
+        <script src="jquery-1.8.2.min.js"></script>
+        <script src="ohjaimet.js"></script>
+        <script src="koodi.js"></script>
+    </body>
+</html>

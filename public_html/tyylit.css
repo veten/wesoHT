@@ -1,0 +1,55 @@
+
+root { 
+    display: block;
+}
+
+#alusta {
+    background-image: url(tehosteet/peliTaustakuva.png);
+    border: 5px lightsteelblue solid;
+}
+
+#listaus, h2, #alkusivu h1 {
+    width: 250px;
+    padding: 5px;
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px black solid;
+}
+
+#alkusivu h1 {
+    width: 400px;
+    padding: 10px;
+}
+
+#lataus {
+    border: 1px black solid;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+#main, #alkusivu {
+    padding: 10px;
+    background-image: url(tehosteet/muuTaustakuva.png);
+    border: 1px rgb(0, 0, 0) solid;
+    width: 704px;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    -webkit-transform: rotate(-20deg); /* chrome, safari */  
+    -moz-transform: rotate(-20deg); /* firefox */  
+    -o-transform: rotate(-20deg); /* opera */  
+    transform: rotate(-20deg);  
+}
+
