@@ -208,7 +208,7 @@ var peli = {
         }
     },
     tarkistaMailaanOsuminen: function() {
-        if (peli.kohteenYlaosaanTormays(peli.pelivaline) || peli.kohteenSivuunTormays(peli.pelivaline)) {
+        if ((peli.kohteensisalla(peli.pelivaline) && peli.pallo.kulkusuunta > 0)) {
             $("#mailaAani")[0].play();
             peli.pallo.kulkusuunta *= (-1);
             if ((peli.pallo.x + (2 * peli.pallo.sade)) < (peli.pelivaline.x + (peli.pelivaline.leveys * 0.25))) {
