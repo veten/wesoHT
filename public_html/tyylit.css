@@ -6,9 +6,10 @@ root {
 #alusta {
     background-image: url(tehosteet/peliTaustakuva.png);
     border: 5px lightsteelblue solid;
+    border-bottom-color: rgb(50, 50, 50);
 }
 
-#listaus, h2, #alkusivu h1 {
+#listaus, h2, #lataa, #ohjeteksti {
     width: 250px;
     padding: 5px;
     background-color: lightgray;
@@ -20,9 +21,13 @@ root {
     border: 1px black solid;
 }
 
-#alkusivu h1 {
-    width: 400px;
+#lataa {
+    width: 550px;
     padding: 10px;
+}
+
+h2 {
+    width: 150px;
 }
 
 #lataus {
@@ -53,3 +58,7 @@ img {
     transform: rotate(-20deg);  
 }
 
+#ohjeteksti {
+    float: right;
+    width: 400px;
+}

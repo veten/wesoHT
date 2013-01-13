@@ -9,23 +9,28 @@
         <section id="main" class="hidden">
             <img src="tehosteet/alus.png" />
             <section id="listaus">
-                <h1> <span id="spanTulos"></span> </h1>
-                <h1> <span id="spanLista"></span> </h1>
+                <h1> <span id="omaTulos"></span> </h1>
+                <h1> <span id="tulosLista"></span> </h1>
                 <ol>
-                    <li><span id="span1"></span></li>
-                    <li><span id="span2"></span></li>
-                    <li><span id="span3"></span></li>
-                    <li><span id="span4"></span></li>
-                    <li><span id="span5"></span></li>
+                    <li><span id="lista1"></span></li>
+                    <li><span id="lista2"></span></li>
+                    <li><span id="lista3"></span></li>
+                    <li><span id="lista4"></span></li>
+                    <li><span id="lista5"></span></li>
                 </ol>
             </section>
         </section>
 
         <section id="alkusivu">
-            <h2> ARKANOID</h2>
-            <img src="tehosteet/alus.png" />
-            <H1> LADATAAN <canvas id="lataus" width="220" height="20"></canvas>            
-            </H1>
+            <h2>ARKANOID</h2>
+            <p id="ohjeteksti"> Ohjeet: Siirtele mailaa sivunuoli-näppäimillä estääksesi pallon 
+                karkaaminen mailan alapuolelle ja rikkoaksesi kaikki tiilit. Peli loppuu 
+                kun pallo karkaa. Pisteitä tulee sitä enemmän, 
+                mitä enemmän ja nopeammin tiilejä rikot. Lisäksi kaikkien tiilien 
+                rikkomisesta saa bonuspisteitä, sekä pääsee seuraavaan rataan. </p>
+            <img src="tehosteet/alus.png"/>
+            <h1 id="lataa"> LADATAAN <canvas id="lataus" width="400" height="20"></canvas>            
+            </h1>
         </section>
 
         <canvas id="alusta" width="704" height="480" class="hidden"></canvas>            
@@ -44,7 +49,9 @@
         <audio src="tehosteet/tiili.wav" id="tiiliAani10"></audio>
         <audio src="tehosteet/pelimusa.mp3" id="pelimusa" loop></audio>
         <audio src="tehosteet/latausAani.wav" id="latausAani"></audio>
-        <audio src="tehosteet/tappioAani.wav" id="tappioAani"></audio>
+        <audio src="tehosteet/latausAani.wav" id="latausAani2"></audio>
+        <audio src="tehosteet/latausAani.wav" id="latausAani3"></audio>
+        <audio src="tehosteet/explosion.mp3" id="tappioAani"></audio>
 
         <script src="jquery-1.8.2.min.js"></script>
         <script src="ohjaimet.js"></script>
